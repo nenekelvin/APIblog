@@ -1,3 +1,4 @@
+
 <p>
   <strong>Title:</strong>
   <%= @article.title %>
@@ -7,6 +8,9 @@
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
+ 
+<h2>Comments</h2>
+<%= render @article.comments %>
  
 <h2>Add a comment:</h2>
 <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
