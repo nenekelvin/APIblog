@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :installs
+  
   get 'welcome/index'
   
 resources :articles do
