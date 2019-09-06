@@ -8,6 +8,8 @@ end
 
 gem 'rails', '~> 5.1.7'
 gem 'devise', '~> 4.7'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'simple_form', '~> 4.1'
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
